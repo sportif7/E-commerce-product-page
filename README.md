@@ -65,8 +65,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [my solution here](https://your-solution-url.com)
-- Live Site URL: [my solution here](https://your-live-site-url.com)
+- Solution URL: [my solution here]
+- Live Site URL: [my solution here](https://sportif7.github.io/E-commerce-product-page/)
 
 ## My process
 

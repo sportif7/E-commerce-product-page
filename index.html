@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ecommerce-product-page</title>
+  <link rel="stylesheet" href="style-reset.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>  
+  <div class="container">
+    <div class="overlay"></div>
+    <header>
+      <div class="flex-div">
+        <img class="icon-menu" src="images/icon-menu.svg"  alt="icon-menu.svg">
+        <img class="sneakers-headline"src="images/logo.svg" alt="logo.svg">
+        <nav class="menu">
+          <img class="icon-close" src="images/icon-close.svg" alt="icon-close.svg">
+          <ul class="options">
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#"data-hovered>Women</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="flex-div icon-cart-div">
+        <div class="icon-cart-container">
+          <img class="icon-cart" src="images/icon-cart.svg" alt="icon-cart.svg">
+        </div>
+        <div class="cart" display="none"></div>
+        <img class="avatar" src="images/image-avatar.png" alt="image-avatar.png">
+      </div>
+    </header>
+    <main>
+      <section class="images-section">
+        <div class="carousel" data-carousel>
+          <div class="slide-big" display="none">
+            <img src="images/image-product-1.jpg" alt="product-1.jpg">
+          </div>
+          <ul class="slider" data-slider>
+            <li class="slide-on slide " data-active>
+              <img src="images/image-product-1.jpg" alt="product-1.jpg">
+            </li>
+            <li class="slide">
+              <img src="images/image-product-2.jpg" alt="product-2.jpg">
+            </li>
+            <li class="slide">
+              <img src="images/image-product-3.jpg" alt="product-3.jpg">
+            </li>
+            <li class="slide" >
+              <img src="images/image-product-4.jpg" alt="product-4.jpg">
+            </li>
+          </ul>
+          <button class="btn-arrow previous" data-carousel-button="previous">
+            <img src="images/icon-previous.svg" alt="icon-previous.svg">
+          </button>
+          <button class="btn-arrow next" data-carousel-button="next">
+            <img src="images/icon-next.svg" alt="icon-next.svg">
+          </button>
+        </div>
+      </section>
+      <section class="details-section">
+        <div class="description">
+          <h3 class="brand">Sneaker Company</h3>
+          <h1 class="edition">Fall Limited Edition Sneakers</h1>
+          <p class="text">
+            These low-profile sneakers are your perfect casual wear companion. Featuring a
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+          </p>
+        </div>
+        <div class="flex-price">
+          <div class="new-price-div">
+            <span class="new-price">$125.00</span>
+            <span class="discount"> 50%</span>
+          </div>
+          <span class="original-price"> $250.00</span>
+        </div>
+        <div class="flex-counter-addToCartButton">
+          <div class="counter-panel">
+            <button class="counter-button" data-counter="minus">
+              <img src="images/icon-minus.svg" alt="icon-minus.svg">
+            </button>
+            <span class="counter">0</span>
+            <button class="counter-button" data-counter="plus">
+              <img src="images/icon-plus.svg" alt="icon-plus.svg">
+            </button>
+          </div>
+          <button class="addToCart-button">
+            <img class="icon-cart" src="images/icon-cart.svg" alt="icon-cart.svg">
+            Add to cart
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+
+
+
+
